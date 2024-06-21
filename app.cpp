@@ -21,7 +21,7 @@ using namespace std;
  *
  * @throws None. This function does not throw any exceptions.
  */
-vector<string> replace_string_vector(vector<string> strings, string target, string new_value, int count = 7)
+vector<string> replace_string_vector(vector<string> strings, string target, string new_value, int count = 3)
 {
     // Check if the count is greater than the size of the vector of strings
     if (count > strings.size())
